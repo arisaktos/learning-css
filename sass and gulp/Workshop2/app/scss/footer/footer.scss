@@ -1,0 +1,28 @@
+@import '../variables/variables';
+footer {
+    background-color: $grey;
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+    .icon {
+        background-color: $yellow;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        margin: auto;
+        color: black;
+        &:hover {
+            color: $yellow;
+            background-color: black;
+        }
+    }
+    .icon-copy {
+        padding-top: 10px;
+    }
+    .footer-copy {
+        padding-top: 30px;
+    }
+}

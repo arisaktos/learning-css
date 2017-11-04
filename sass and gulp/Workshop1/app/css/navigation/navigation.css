@@ -1,0 +1,28 @@
+#main-nav {
+    background-color: #220000;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+
+#main-nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav li a {
+    color: #fff;
+}
+
+#main-nav li a:hover {
+    color: blue;
+}
+
+#main-nav li.red a {
+    color: red;
+}

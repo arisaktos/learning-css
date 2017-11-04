@@ -1,0 +1,63 @@
+@import '../variables/variables';
+#main-header {
+    width: 100%;
+    padding-top: 30px;
+    background: url('../../img/background.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+    .top-row {
+        padding-bottom: 40px;
+    }
+    #main-logo {
+        i {
+            color: $yellow;
+            font-size: 3em;
+        }
+        h1 {
+            font-weight: bold;
+            display: inline;
+        }
+    }
+    #main-phone {
+        text-align: right;
+        i {
+            font-size: 3em;
+            vertical-align: top;
+        }
+        p {
+            display: inline-block;
+            text-align: left;
+            span {
+                font-size: 1.5em;
+            }
+        }
+    }
+    #middle-form {
+        p {
+            font-size: 1.5em;
+            span {
+                color: $yellow;
+            }
+        }
+    }
+    #contact-form {
+        background-color: $dark-blue;
+        width: 80%;
+        padding: 20px;
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            width: 50%;
+            border: none;
+            background-color: $yellow;
+            font-weight: bold;
+            text-transform: capitalize;
+            height: 60px;
+        }
+    }
+}

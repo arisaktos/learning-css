@@ -1,0 +1,107 @@
+#main-header {
+    width: 100%;
+    padding-top: 30px;
+    background: url("../../img/background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+}
+
+#main-header .top-row {
+    padding-bottom: 40px;
+}
+
+#main-header #main-logo i {
+    color: #ecd407;
+    font-size: 3em;
+}
+
+#main-header #main-logo h1 {
+    font-weight: bold;
+    display: inline;
+}
+
+#main-header #main-phone {
+    text-align: right;
+}
+
+#main-header #main-phone i {
+    font-size: 3em;
+    vertical-align: top;
+}
+
+#main-header #main-phone p {
+    display: inline-block;
+    text-align: left;
+}
+
+#main-header #main-phone p span {
+    font-size: 1.5em;
+}
+
+#main-header #middle-form p {
+    font-size: 1.5em;
+}
+
+#main-header #middle-form p span {
+    color: #ecd407;
+}
+
+#main-header #contact-form {
+    background-color: #001d8a;
+    width: 80%;
+    padding: 20px;
+}
+
+#main-header #contact-form input,
+    #main-header #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#main-header #contact-form input[type="submit"] {
+    width: 50%;
+    border: none;
+    background-color: #ecd407;
+    font-weight: bold;
+    text-transform: capitalize;
+    height: 60px;
+}
+
+body {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer {
+    background-color: #292929;
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer .icon {
+    background-color: #ecd407;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin: auto;
+    color: black;
+}
+
+footer .icon:hover {
+    color: #ecd407;
+    background-color: black;
+}
+
+footer .icon-copy {
+    padding-top: 10px;
+}
+
+footer .footer-copy {
+    padding-top: 30px;
+}

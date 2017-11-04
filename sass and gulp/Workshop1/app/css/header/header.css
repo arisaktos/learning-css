@@ -1,0 +1,20 @@
+#main-header {
+    height: 100vh;
+    background: url("https://d2pptc4exyus09.cloudfront.net/puzzle/165/743/original.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#main-header .inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    border: 10px solid black;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+}

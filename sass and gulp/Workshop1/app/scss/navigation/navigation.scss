@@ -1,0 +1,26 @@
+$base-color: #220000;
+#main-nav {
+    background-color: $base-color;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        a {
+            color: #fff;
+            &:hover {
+                color: blue;
+            }
+        }
+        &.red {
+            a {
+                color: red;
+            }
+        }
+    }
+}
